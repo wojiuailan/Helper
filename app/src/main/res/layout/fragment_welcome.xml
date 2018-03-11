@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/iv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tool1"
+        android:scaleType="centerInside"/>
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:background="@drawable/btn_welcome_skip"
+        android:text="@string/skip"
+        android:textColor="#FF555555"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+</RelativeLayout>

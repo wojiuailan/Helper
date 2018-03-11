@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xin.shengnan.helper.fragment.FragmentGuide">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/btn_guid_skip"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:background="@drawable/btn_welcome_skip"
+        android:text="@string/skip"
+        android:textColor="#FFFFF08F"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

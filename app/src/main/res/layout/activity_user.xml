@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xin.shengnan.helper.tool.MyDL xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xin.shengnan.helper.aty.ActivityUser">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fl_user_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/iv_more_back" />
+
+        <ImageView
+            android:id="@+id/iv_more_tool"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/more" />
+
+        <RelativeLayout
+            android:id="@+id/rl_tools"
+            android:layout_width="50dp"
+            android:layout_height="210dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/iv_more_back"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_note"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/note" />
+
+            <ImageView
+                android:id="@+id/iv_light"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/iv_note"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/light" />
+
+            <ImageView
+                android:id="@+id/iv_measure"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/iv_light"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFFFF"
+                android:src="@drawable/measure" />
+
+            <ImageView
+                android:id="@+id/iv_gps"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/iv_measure"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/gps" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_user_menu"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#FFFFFFFF"/>
+
+</xin.shengnan.helper.tool.MyDL>
